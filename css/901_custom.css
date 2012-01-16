@@ -1,0 +1,79 @@
+#center_content,
+#sidebar-first,
+#sidebar-second,
+#right_ad {
+  float: left;
+  display: inline;
+  position: relative; }
+
+/*$styles_server : 'http://t1mdev.com/eric/css/tum_styles/';*/
+#main-wrapper {
+  margin-right: 120px; }
+
+#header {
+  position: relative;
+  /*TODO fix this variable */
+  margin-left: 15%;
+  /*TODO fix this, */ }
+  #header .ad {
+    height: 120px;
+    width: 780px; }
+    #header .ad img {
+      height: 120px;
+      width: 780px; }
+
+#sidebar-first {
+  width: 12%;
+  left: -68%; }
+  #sidebar-first a {
+    text-decoration: none;
+    color: white;
+    color: white; }
+    #sidebar-first a :visited {
+      color: white; }
+    #sidebar-first a :hover {
+      color: white;
+      text-decoration: underline; }
+    #sidebar-first a :focus {
+      outline: thin dotted; }
+  #sidebar-first .ad {
+    width: 12%;
+    height: 90px; }
+    #sidebar-first .ad img {
+      width: 12%;
+      height: 90px; }
+  #sidebar-first ul {
+    padding: 0px;
+    margin: 0px; }
+  #sidebar-first li {
+    background-image: url("http://t1mdev.com/eric/css/tum_styles//img/b_w_gradient.jpg");
+    list-style-type: none;
+    height: 30px;
+    width: 98%;
+    padding: 5px 1%;
+    margin: 1px 0px 0px 0px;
+    vertical-align: middle;
+    text-align: center; }
+
+#sidebar-second {
+  width: 12%;
+  left: 2%; }
+
+#right_ad {
+  width: 120px;
+  height: 500px;
+  float: right; }
+  #right_ad img {
+    /*TODO remove me */
+    height: 100%;
+    width: 100%; }
+
+#center_content {
+  width: 68%;
+  left: 14%;
+  margin: 0px 1%; }
+  #center_content .post_photo {
+    width: 100%; }
+
+.content {
+  width: 100%; }

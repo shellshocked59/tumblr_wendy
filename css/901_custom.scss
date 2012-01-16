@@ -1,0 +1,121 @@
+
+#center_content,
+#sidebar-first,
+#sidebar-second,
+#right_ad {
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+$sidebar-first-width:12%;
+$sidebar-second-width : 12%;
+$center_content-width : 68%;
+$center_content_margin:1%;
+$right_ad_width : 120px;
+
+/*$styles_server : 'http://t1mdev.com/eric/css/tum_styles/';*/
+$webroot : 'http://t1mdev.com/eric/css/tum_styles/';
+
+#main-wrapper{
+	margin-right:$right_ad_width;
+}
+
+#header{
+	position:relative;
+	$center_content_margin_px : 10px;/*TODO fix this variable */
+	margin-left:$sidebar-first-width+$center_content_margin*3;/*TODO fix this, */
+	.ad{
+		$header_ad_height:120px;
+		$header_ad_width:800px;
+		height:$header_ad_height;
+		width:$header_ad_width - (2*$center_content_margin_px);
+		img{
+			height:$header_ad_height;
+			width:$header_ad_width - (2*$center_content_margin_px);
+		}
+	}
+}
+
+#sidebar-first{
+	width:$sidebar-first-width;
+	left:-$center_content-width;
+	a {
+		$sidebar-first_link_color : white;
+		
+		text-decoration:none;
+		color:$sidebar-first_link_color;
+		:visited{
+			color:$sidebar-first_link_color;
+		} 
+		:hover { 
+			color: $sidebar-first_link_color; 
+			text-decoration:underline;
+		}
+		:focus { 
+			outline: thin dotted; 
+		}
+		color: $sidebar-first_link_color; 
+	}
+	
+	.ad{
+		$ad_height:90px;
+		width:$sidebar-first-width;
+		height:$ad_height;
+		img{
+			width:$sidebar-first-width;
+			height:$ad_height;
+		}
+	}
+	ul{
+		padding: 0px;
+		margin: 0px;
+	}
+	li{
+		$li_padding_hor : 1%;
+		background-image:url($webroot+'/img/b_w_gradient.jpg');
+		list-style-type: none;
+		height:30px;
+		width:100% - (2*$li_padding_hor);
+		padding:5px $li_padding_hor;
+		margin:1px 0px 0px 0px;
+		vertical-align:middle;
+		text-align:center;
+	}
+}
+#sidebar-second{
+	width:$sidebar-second-width;
+
+	left:$center_content_margin*2;
+	
+}
+
+#right_ad{
+	width:$right_ad_width;
+	height:500px;
+	float:right;
+	img{ /*TODO remove me */
+		height:100%;
+		width:100%;
+	}
+}
+
+#center_content{
+
+	width:$center_content-width;
+	left:$sidebar-first-width + ($center_content_margin*2);
+	margin:0px $center_content_margin;
+	.post_photo{
+		width:100%;
+	}
+
+}
+
+
+.content{
+	width:100%;
+
+}
+
+
+

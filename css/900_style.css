@@ -1,0 +1,239 @@
+/*-------------------------------------------------------------------------
+
+	Typography Definitions
+	
+-------------------------------------------------------------------------*/
+
+/*	Basic Styles
+-------------------------------------------------------------------------*/
+body {
+	color: #444;
+}
+
+/* Headings
+-------------------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	/* Add heading stylings */
+}
+h1 {
+	/* Add heading stylings */
+}
+h2 {
+	/* Add heading stylings */
+}
+h3 {
+	/* Add heading stylings */
+}
+h4 {
+	/* Add heading stylings */
+}
+h5 {
+	/* Add heading stylings */
+}
+h6 {
+	/* Add heading stylings */
+}
+
+/* Text elements
+-------------------------------------------------------------------------*/
+
+/* Link elements
+-------------------------------------------------------------------------*/
+
+/* Lists
+-------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------
+
+	Forms Definitions
+	
+-------------------------------------------------------------------------*/
+
+/* 
+	A special hack is included for IE8 since it does not apply padding 
+	correctly on fieldsets
+ */
+form .input-wrapper {
+	margin: 0 0 10px;
+} 
+label {
+	font-weight: bold;
+}
+fieldset {
+	padding: 0 15px 15px 15px;
+	margin: 0 0 15px 0;
+	border: 1px solid #ccc;
+}
+legend {
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: -12px;
+	margin-bottom: 12px;
+}
+fieldset {
+	padding-top: 15px;
+}
+legend {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Form fields
+-------------------------------------------------------------- */
+input[type="radio"],
+input[type="checkbox"],
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+	line-height: 1;
+    vertical-align: middle;
+	margin-right: 2px;
+}
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+	display: inline;
+    height: auto;
+    margin: 2px 0 8px 2px;
+}
+label,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+	cursor: pointer;
+}
+label { 
+	display: block; 
+	margin: 0;
+	font-size: 12px; 
+	text-align: left; 
+	color: #333;
+	font-weight: bold;
+}
+textarea,
+input[type="text"],
+input[type="password"],
+select { 
+	padding: 4px;
+	border: 1px solid #ddd;
+	width: 98%;
+}
+textarea {
+	height: 150px;
+}
+textarea:focus,
+input:focus,
+select:focus { 
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+}
+input.error,
+textarea.error,
+select.error {
+	border-style: solid;
+	border-color: #FBC2C4 #FBC2C4 #ee9b9e #FBC2C4;
+	border-width: 1px;
+	background: #FBE3E4;
+	color: #8A1F11;
+}
+label.error {
+	cursor: default;
+	display: inline-block;
+    padding: 0 0 0 15px;
+}
+option {
+	background: #fff; 
+	color: #000; 
+}
+
+/* Inline Fields
+-------------------------------------------------------------- */
+.inline div,
+div.inline { 
+	margin: 5px 0;
+}
+.inline label { 
+	margin: 0 10px 0 0;
+	width: 32%;
+	float: left;
+}
+.inline.align-right label,
+.align-right label { 
+	text-align: right;
+}
+.inline textarea,
+.inline input[type="text"],
+.inline input[type="password"],
+.inline select { 
+	padding: 4px;
+	width: 63%;
+	float: left;
+}
+
+/* Notifications - success, info, notice and error/alert boxes
+-------------------------------------------------------------- */
+.error,
+.success {
+	border: 2px solid #ddd;
+	font-size: 12px;
+	padding: 3px 0 0 25px;
+	margin: 0 0 10px;
+}
+.error {
+	background: #fbe3e4;
+	color: #8a1f11;
+	border-color: #fbc2c4;
+}
+.success {
+	background: #e6efc2;
+	color: #264409;
+	border-color: #c6d880;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------
+
+	Header Definitions
+	
+-------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------
+
+	Footer Definitions
+	
+-------------------------------------------------------------------------*/
